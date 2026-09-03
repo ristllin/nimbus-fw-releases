@@ -1,0 +1,16 @@
+{
+  "name": "Nimbus",
+  "version": "v4.4.7",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "https://raw.githubusercontent.com/ristllin/nimbus-fw-releases/webflash/latest/freenove-28/nimbus-webflash.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
